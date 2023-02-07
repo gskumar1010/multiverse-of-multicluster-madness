@@ -4,7 +4,7 @@ kind: Channel
 metadata:
   annotations:
     apps.open-cluster-management.io/reconcile-rate: medium
-  name: ggithubcom-kenmoini-multiverse-of-multicluster-madness
+  name: githubcom-kenmoini-multiverse-of-multicluster-madness
   namespace: rhacm-channels
 spec:
   type: Git

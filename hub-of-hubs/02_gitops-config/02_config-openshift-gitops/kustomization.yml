@@ -5,6 +5,6 @@ kind: Kustomization
 
 resources:
   - ../../../argocd/appProjects/
-  - 05_repo-externalsecret.yml
+  #- 05_repo-externalsecret.yml
   - 05_reposecret.yml
   - 10_hoh-cluster-apps.yml

@@ -10,6 +10,6 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 bases:
-  - ./00_eso-config
+  ## - ./00_eso-config
   - ./01_deploy-openshift-gitops
   - ./02_config-openshift-gitops
