@@ -4,8 +4,8 @@ kind: Kustomization
 
 resources:
   - manifests/00_namespace.yml
-  - manifests/05_deploymentconfig.yml
-  - manifests/07_service.yml
-  - manifests/10_route.yml
+  - manifests/11_bookinfo.yml
+  - manifests/12_bookinfo-gateway.yml
+  - manifests/13_bookinfo-destination-rule-all.yml
 
-namespace: infinite-mario
+namespace: bookinfo
