@@ -126,7 +126,7 @@ metadata:
   name: idp-config-policygenerator
   namespace: rhacm-applications
 spec:
-  channel: rhacm-channels/ggithubcom-kenmoini-multiverse-of-multicluster-madness
+  channel: rhacm-channels/githubcom-gskumar1010-multiverse-of-multicluster-madness
   placement:
     placementRef:
       kind: PlacementRule
@@ -139,11 +139,11 @@ spec:
 #   annotations:
 #     argocd.argoproj.io/compare-options: IgnoreExtraneous
 #     apps.open-cluster-management.io/reconcile-rate: medium
-#   name: ggithubcom-kenmoini-multiverse-of-multicluster-madness
+#   name: githubcom-gskumar1010-multiverse-of-multicluster-madness
 #   namespace: rhacm-channels
 # spec:
 #   type: Git
-#   pathname: 'https://github.com/kenmoini/multiverse-of-multicluster-madness'
+#   pathname: 'https://github.com/gskumar1010/multiverse-of-multicluster-madness'
 ```
 
 This is handy because keep in mind we're generating Policies that have their own PlacementRules and Bindings vs what this Application is bound by/to.

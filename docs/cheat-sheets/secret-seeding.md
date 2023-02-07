@@ -72,9 +72,9 @@ oc exec -it vault-0 -- vault write auth/kubernetes/role/issuer bound_service_acc
 2. Create the Secret in Vault
 
 ```bash
-GIT_USERNAME="kenmoini" # Your GitHub username
+GIT_USERNAME="gskumar1010" # Your GitHub username
 GIT_PASSWORD="$(cat ~/.mvomcm-gh-pat)" # Your GitHub PAT, store in a local file for easy reuse
-GIT_REPO="https://github.com/kenmoini/multiverse-of-multicluster-madness.git" # The URL to this repo/your fork
+GIT_REPO="https://github.com/gskumar1010/multiverse-of-multicluster-madness.git" # The URL to this repo/your fork
 
 oc rsh -n vault vault-0 vault kv put -mount=kv hoh-git-reader git_username="${GIT_USERNAME}" git_password="$GIT_PASSWORD" \
   git_url="$GIT_REPO" \

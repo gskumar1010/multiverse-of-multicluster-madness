@@ -2,12 +2,12 @@
 apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
-  name: kenmoini-gitea
+  name: gskumar1010-gitea
   namespace: openshift-marketplace
   annotations:
     argocd.argoproj.io/sync-wave: "-1"
 spec:
   sourceType: grpc
-  image: quay.io/kenmoini/gitea-catalog:latest
+  image: quay.io/gskumar1010/gitea-catalog:latest
   displayName: Gitea
   publisher: Ken Moini

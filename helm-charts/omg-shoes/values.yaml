@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: quay.io/kenmoini/omg-shoes
+  repository: quay.io/gskumar1010/omg-shoes
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"

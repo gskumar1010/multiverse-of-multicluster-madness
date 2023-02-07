@@ -59,7 +59,7 @@ Any combination of Kustomize, Helm, ArgoCD, RHACM Apps, RHACM Policies, and RHAC
  ┃ ┃ ┣ 📂 sealedsecrets-chart-installed - Installs the Sealed Secret Helm Chart
  ┃ ┃ ┗ 📜 kustomization.yml - Just toggles the individual Applications in this folder
  ┣ 📂 depreciated - plz ignore
- ┣ 📂 docs - Helpful words!  Available on https://kenmoini.github.io/multiverse-of-multicluster-madness/
+ ┣ 📂 docs - Helpful words!  Available on https://gskumar1010.github.io/multiverse-of-multicluster-madness/
  ┃ ┣ 📂 chart-repo - A Helm Chart Repository for the Helm Charts, hosted on GitHub Pages
  ┃ ┣ 📂 cheat-sheets - Some guidance and commands to spray/pray.
  ┃ ┣ 📂 examples - Useful examples for the comprehension or maintenance of this repo
@@ -215,7 +215,7 @@ Any combination of Kustomize, Helm, ArgoCD, RHACM Apps, RHACM Policies, and RHAC
  ┃ ┃ ┗ 📂ztp-as-a-service
  ┃ ┃ ┃ ┗ 📜rhacm-app.yaml
  ┃ ┣ 📂channels
- ┃ ┃ ┗ 📜github-kenmoini-upstream.yml
+ ┃ ┃ ┗ 📜github-gskumar1010-upstream.yml
  ┃ ┣ 📂policies
  ┃ ┃ ┣ 📂aws-infra-nodes
  ┃ ┃ ┃ ┗ 📜policy.yml

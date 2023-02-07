@@ -12,7 +12,7 @@ spec:
   project: helm-installed
   source:
     chart: omg-shoes
-    repoURL: https://kenmoini.github.io/multiverse-of-multicluster-madness/chart-repo/
+    repoURL: https://gskumar1010.github.io/multiverse-of-multicluster-madness/chart-repo/
     targetRevision: 4.2.2
     helm:
       releaseName: omg-shoes

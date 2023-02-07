@@ -22,11 +22,11 @@ spec:
 #   annotations:
 #     argocd.argoproj.io/compare-options: IgnoreExtraneous
 #     apps.open-cluster-management.io/reconcile-rate: medium
-#   name: ggithubcom-kenmoini-multiverse-of-multicluster-madness
+#   name: githubcom-gskumar1010-multiverse-of-multicluster-madness
 #   namespace: rhacm-channels
 # spec:
 #   type: Git
-#   pathname: 'https://github.com/kenmoini/multiverse-of-multicluster-madness'
+#   pathname: 'https://github.com/gskumar1010/multiverse-of-multicluster-madness'
 ---
 apiVersion: apps.open-cluster-management.io/v1
 kind: Subscription
@@ -41,7 +41,7 @@ metadata:
   name: policy-inheritance-policygenerator
   namespace: rhacm-applications
 spec:
-  channel: rhacm-channels/ggithubcom-kenmoini-multiverse-of-multicluster-madness
+  channel: rhacm-channels/githubcom-gskumar1010-multiverse-of-multicluster-madness
   placement:
     placementRef:
       kind: PlacementRule

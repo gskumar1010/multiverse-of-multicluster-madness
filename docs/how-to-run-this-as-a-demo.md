@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - Hub of Hubs cluster, suggested it be ARO/ROSA
-- At least one geo-local cluster, can be running on anything really ([ocp4-ai-svc-universal](https://github.com/kenmoini/ocp4-ai-svc-universal))
+- At least one geo-local cluster, can be running on anything really ([ocp4-ai-svc-universal](https://github.com/gskumar1010/ocp4-ai-svc-universal))
 - The ability to ZTP from the geo-local cluster ((openshift-ztp)[https://github.com/Red-Hat-SE-RTO/openshift-ztp])
 
 ## Overview

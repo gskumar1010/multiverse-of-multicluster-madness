@@ -32,7 +32,7 @@ spec:
                 path: tls-ca-bundle.pem
       containers:
         - name: mirror-server
-          image: quay.io/kenmoini/go-http-mirror:latest
+          image: quay.io/gskumar1010/go-http-mirror:latest
           imagePullPolicy: Always
           env:
           {{ if .Values.proxy.enabled }}

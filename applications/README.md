@@ -18,6 +18,6 @@ You can also find the application distributed via a RHACM Application that can b
 
 OMG Shoes is a simple and fun app, shows a set of spinning shoes in GIF format with their Nike Custom link in a QR code below.  Just a little splash of HTML, touch of CSS, and we're done.
 
-You can find the simple source code in the `applications/omg-shoes/site/` folder along with an adjacent `Dockerfile`, and everything from an ArgoCD Application, RHACM AppSub manifests, and even just normal YAML manifests (that are synced by the other two sets of manifests).  There is also a live image available at quay.io/kenmoini/omg-shoes.
+You can find the simple source code in the `applications/omg-shoes/site/` folder along with an adjacent `Dockerfile`, and everything from an ArgoCD Application, RHACM AppSub manifests, and even just normal YAML manifests (that are synced by the other two sets of manifests).  There is also a live image available at quay.io/gskumar1010/omg-shoes.
 
 This application is synced down to the clusters via a RHACM AppSub in `rhacm/applications/app-omg-shoes/` that syncs down the PolicyGenerator in `rhacm/policy-generators/app-omg-shoes/` - which distributes an ArgoCD Application to sync it down to the individually targeted clusters.

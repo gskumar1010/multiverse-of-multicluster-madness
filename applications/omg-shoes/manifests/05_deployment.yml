@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
         - name: omg-shoes
-          image: quay.io/kenmoini/omg-shoes:latest
+          image: quay.io/gskumar1010/omg-shoes:latest
           imagePullPolicy: Always
           resources:
             limits:

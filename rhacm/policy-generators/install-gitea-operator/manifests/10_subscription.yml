@@ -9,5 +9,5 @@ spec:
   channel: stable
   installPlanApproval: Automatic
   name: gitea-operator
-  source: kenmoini-gitea
+  source: gskumar1010-gitea
   sourceNamespace: openshift-marketplace

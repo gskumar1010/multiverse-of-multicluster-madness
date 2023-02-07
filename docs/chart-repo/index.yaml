@@ -9,7 +9,7 @@ entries:
     name: omg-shoes
     type: application
     urls:
-    - https://kenmoini.github.io/multiverse-of-multicluster-madness/chart-repo/omg-shoes-4.2.2.tgz
+    - https://gskumar1010.github.io/multiverse-of-multicluster-madness/chart-repo/omg-shoes-4.2.2.tgz
     version: 4.2.2
   - apiVersion: v2
     appVersion: 4.2.0
@@ -19,7 +19,7 @@ entries:
     name: omg-shoes
     type: application
     urls:
-    - https://kenmoini.github.io/multiverse-of-multicluster-madness/chart-repo/omg-shoes-4.2.0.tgz
+    - https://gskumar1010.github.io/multiverse-of-multicluster-madness/chart-repo/omg-shoes-4.2.0.tgz
     version: 4.2.0
   ztp-as-a-service:
   - apiVersion: v2
@@ -30,7 +30,7 @@ entries:
     name: ztp-as-a-service
     type: application
     urls:
-    - https://kenmoini.github.io/multiverse-of-multicluster-madness/chart-repo/ztp-as-a-service-4.2.3.tgz
+    - https://gskumar1010.github.io/multiverse-of-multicluster-madness/chart-repo/ztp-as-a-service-4.2.3.tgz
     version: 4.2.3
   - apiVersion: v2
     appVersion: 4.2.2
@@ -40,7 +40,7 @@ entries:
     name: ztp-as-a-service
     type: application
     urls:
-    - https://kenmoini.github.io/multiverse-of-multicluster-madness/chart-repo/ztp-as-a-service-4.2.2.tgz
+    - https://gskumar1010.github.io/multiverse-of-multicluster-madness/chart-repo/ztp-as-a-service-4.2.2.tgz
     version: 4.2.2
   - apiVersion: v2
     appVersion: 4.2.1
@@ -50,7 +50,7 @@ entries:
     name: ztp-as-a-service
     type: application
     urls:
-    - https://kenmoini.github.io/multiverse-of-multicluster-madness/chart-repo/ztp-as-a-service-4.2.1.tgz
+    - https://gskumar1010.github.io/multiverse-of-multicluster-madness/chart-repo/ztp-as-a-service-4.2.1.tgz
     version: 4.2.1
   - apiVersion: v2
     appVersion: 4.2.0
@@ -60,7 +60,7 @@ entries:
     name: ztp-as-a-service
     type: application
     urls:
-    - https://kenmoini.github.io/multiverse-of-multicluster-madness/chart-repo/ztp-as-a-service-4.2.0.tgz
+    - https://gskumar1010.github.io/multiverse-of-multicluster-madness/chart-repo/ztp-as-a-service-4.2.0.tgz
     version: 4.2.0
   - apiVersion: v2
     appVersion: 1.16.0
@@ -70,6 +70,6 @@ entries:
     name: ztp-as-a-service
     type: application
     urls:
-    - https://kenmoini.github.io/multiverse-of-multicluster-madness/chart-repo/ztp-as-a-service-0.1.0.tgz
+    - https://gskumar1010.github.io/multiverse-of-multicluster-madness/chart-repo/ztp-as-a-service-0.1.0.tgz
     version: 0.1.0
 generated: "2023-02-02T00:55:02.28613-06:00"

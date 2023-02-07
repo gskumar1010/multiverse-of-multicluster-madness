@@ -29,7 +29,7 @@ metadata:
   name: install-reflector-chart-policygenerator
   namespace: rhacm-applications
 spec:
-  channel: rhacm-channels/ggithubcom-kenmoini-multiverse-of-multicluster-madness
+  channel: rhacm-channels/githubcom-gskumar1010-multiverse-of-multicluster-madness
   placement:
     placementRef:
       kind: PlacementRule

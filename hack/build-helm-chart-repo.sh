@@ -17,7 +17,7 @@ mv *.tgz ../docs/chart-repo
 
 # Create the index.yaml file
 cd ../docs/
-helm repo index chart-repo --url https://kenmoini.github.io/multiverse-of-multicluster-madness/chart-repo/
-#helm repo index chart-repo --merge --url https://kenmoini.github.io/multiverse-of-multicluster-madness/chart-repo/
+helm repo index chart-repo --url https://gskumar1010.github.io/multiverse-of-multicluster-madness/chart-repo/
+#helm repo index chart-repo --merge --url https://gskumar1010.github.io/multiverse-of-multicluster-madness/chart-repo/
 
-# helm repo add kemo-mvmcm https://kenmoini.github.io/multiverse-of-multicluster-madness/chart-repo/
+# helm repo add kemo-mvmcm https://gskumar1010.github.io/multiverse-of-multicluster-madness/chart-repo/

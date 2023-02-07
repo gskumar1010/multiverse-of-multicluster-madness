@@ -10,7 +10,7 @@ spec:
   destination:
     server: 'https://kubernetes.default.svc'
   source:
-    repoURL: 'https://github.com/kenmoini/multiverse-of-multicluster-madness'
+    repoURL: 'https://github.com/gskumar1010/multiverse-of-multicluster-madness'
     targetRevision: HEAD
     path: argocd/gitops-apps
     #directory:
