@@ -27,6 +27,4 @@ spec:
       prune: true
       allowEmpty: true
       #selfHeal: false # overrides changes made on the cluster that drift from git state
-    syncOptions:
-      - CreateNamespace=true  
       
