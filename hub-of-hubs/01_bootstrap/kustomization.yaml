@@ -12,3 +12,8 @@ bases:
   ## - ./install-external-secrets-operator
   ## - ./install-hashicorp-vault-chart
   - ./install-openshift-gitops-operator
+  - ./install-openshift-elasticsearch-operator
+  - ./install-openshift-jaeger-operator
+  - ./install-openshift-kiali-operator
+  - ./install-openshift-servicemesh-operator
+
